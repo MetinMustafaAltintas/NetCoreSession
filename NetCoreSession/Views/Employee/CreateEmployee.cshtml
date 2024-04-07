@@ -1,0 +1,21 @@
+﻿@model Employee
+
+
+<form asp-action="CreateEmployee" method="post" asp-controller="Employee" class="table table-active">
+    <div>
+        <input asp-for="FirstName" placeholder="İsim giriniz" />
+    </div>
+
+    <br /> <br />
+
+    <div>
+        <input asp-for="LastName" placeholder="Soyisim giriniz" />
+    </div>
+    <br /> <br />
+
+    <div>
+        <button class="btn btn-primary">
+            Ekle
+        </button>
+    </div>
+</form>
